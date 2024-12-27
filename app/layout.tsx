@@ -18,7 +18,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             {/* Define Navigation bar inside header */}
             <ul> 
                 <li><Link href="/">Home</Link></li> 
-                <li><Link href="/products/">Products</Link></li>
+                {/*<li><Link href="/products/">Products</Link></li>*/}
                 <li><Link href="/contacts/">Contacts</Link></li>
                 <li><Link href="/about">About Us</Link></li>
             </ul>
